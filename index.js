@@ -29,7 +29,7 @@ const CLEAR_KEY_IMAGE = `${CLEAR_KEY}1`;
 
 const AI_IMAGE_KEY = '作画';
 
-const AI_THINKING_MESSAGE = 'ChatGPT is Generating the anser，Please Ask me the question a few Second later~';
+const AI_THINKING_MESSAGE = 'ChatGPT 正在获取您的答案，您可以稍后再问我一下~';
 
 const LIMIT_AI_TEXT_COUNT = 10;
 const LIMIT_AI_IMAGE_COUNT = 5;
