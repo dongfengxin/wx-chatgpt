@@ -92,6 +92,7 @@ async function getAIMessage({ Content, FromUserName }) {
     where: {
       fromUser: FromUserName,
       request: Content,
+      status:MESSAGE_STATUS_ANSWERED,
     },
   });
 
